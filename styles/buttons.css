@@ -70,3 +70,16 @@
     z-index: 0.09375rem;
   }
 }
+
+@media (width >= 80em) {
+  
+  .btn-sm {
+    padding: .75rem 1.5rem;
+    font-size: (--fs-base);
+  }
+  
+  .btn-md {
+    padding: 1rem 2rem;
+    font-size: 1.125rem;
+  }
+}
